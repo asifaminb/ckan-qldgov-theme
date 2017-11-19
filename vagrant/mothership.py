@@ -1,6 +1,6 @@
 import os
-instance_dir = '/usr/local/ckan.dev'
-config_file = '/usr/local/ckan.dev/pyenv/src/ckan/development.ini'
+instance_dir = '/usr/local/ckanv2.dev'
+config_file = '/usr/local/ckanv2.dev/pyenv/src/ckan/development.ini'
 pyenv_bin_dir = os.path.join(instance_dir, 'pyenv', 'bin')
 activate_this = os.path.join(pyenv_bin_dir, 'activate_this.py')
 execfile(activate_this, dict(__file__=activate_this))

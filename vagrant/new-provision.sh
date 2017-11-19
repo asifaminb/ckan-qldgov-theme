@@ -40,3 +40,7 @@ sudo service jetty restart
 sudo ckan db init
 sudo service apache2 restart
 sudo service nginx restart
+
+sudo chown -R `whoami` /usr/lib/ckan/default
+sudo chmod -R u+rwx /usr/lib/ckan/default
+

@@ -36,11 +36,11 @@
         Allow from 127.0.0.0/255.0.0.0 ::1/128
     </Directory>
 
-  ServerName ckan.dev
-  ServerAlias ckan.dev
+  ServerName ckanv2.dev
+  ServerAlias ckanv2.dev
   ServerAdmin webmaster@localhost
-  WSGIScriptAlias / /usr/local/ckan.dev/pyenv/bin/mothership.py
+  WSGIScriptAlias / /usr/local/ckanv2.dev/pyenv/bin/mothership.py
   WSGIPassAuthorization On
-  ErrorLog /var/log/apache2/ckan.dev.error.log
-  CustomLog /var/log/apache2/ckan.dev.custom.log combined
+  ErrorLog /var/log/apache2/ckanv2.dev.error.log
+  CustomLog /var/log/apache2/ckanv2.dev.custom.log combined
 </VirtualHost>
